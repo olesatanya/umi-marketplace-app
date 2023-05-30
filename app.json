@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "umi_app",
+    "slug": "umi_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "ts",
+        "tsx",
+        "scss",
+        "sass"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.umi.app"
+    },
+    "android": {
+      "package": "com.umi.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "umi-marketplace-app\nexpo, react native",
+    "githubUrl" : "https://github.com/galaxy-digital/icicb-portal-app.git"
+  }
+}
